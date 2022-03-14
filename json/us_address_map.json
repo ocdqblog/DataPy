@@ -1,0 +1,34 @@
+{
+  "integer alpha alpha street_type":
+    ["Street_HouseNumber", "Street_Name", "Street_Name", "Street_SuffixType"],
+  "integer alpha street_type":
+    ["Street_HouseNumber", "Street_Name", "Street_SuffixType"],
+  "integer direction alpha street_type":
+    ["Street_HouseNumber", "Street_PrefixDirection", "Street_Name", "Street_SuffixType"],
+  "integer alpha street_type direction":
+    ["Street_HouseNumber", "Street_Name", "Street_SuffixType", "Street_SuffixDirection"],
+  "integer alpha alpha street_type unit_type integer":
+    ["Street_HouseNumber", "Street_Name", "Street_Name", "Street_SuffixType", "Unit_Type", "Unit_Value"],
+  "integer alpha street_type unit_type integer":
+    ["Street_HouseNumber", "Street_Name", "Street_SuffixType", "Unit_Type", "Unit_Value"],
+  "integer alpha street_type unit_type letter":
+    ["Street_HouseNumber", "Street_Name", "Street_SuffixType", "Unit_Type", "Unit_Value"],
+  "integer alpha street_type unit_type numeric_alpha":
+    ["Street_HouseNumber", "Street_Name", "Street_SuffixType", "Unit_Type", "Unit_Value"],
+  "box_type box_type integer":
+    ["Box_Type", "Box_Type", "Box_Value"],
+  "box_type box_type alpha_numeric":
+    ["Box_Type", "Box_Type", "Box_Value"],
+  "box_type box_type numeric_alpha":
+    ["Box_Type", "Box_Type", "Box_Value"],
+  "box_type box_type letter":
+    ["Box_Type", "Box_Type", "Box_Value"],
+  "box_type integer":
+    ["Box_Type", "Box_Value"],
+  "box_type numeric_alpha":
+    ["Box_Type", "Box_Value"],
+  "box_type letter":
+    ["Box_Type", "Box_Value"],
+  "alpha state_code zip_code":
+    ["Additional_Address", "Additional_Address", "Additional_Address"]
+}

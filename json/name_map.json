@@ -1,0 +1,350 @@
+{
+  "name_prefix first_name period_terminated_letter alpha":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name"],
+  "name_prefix first_name letter alpha":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name"],
+  "name_prefix first_name first_name alpha":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name"],
+  "name_prefix first_name alpha alpha":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name"],
+  "name_prefix first_name period_terminated_letter alpha name_suffix":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "name_prefix first_name letter alpha name_suffix":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "name_prefix first_name first_name alpha name_suffix":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "name_prefix first_name alpha alpha name_suffix":
+    ["Name_Prefix", "First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "first_name period_terminated_letter hyphenated_alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name letter hyphenated_alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name first_name hyphenated_alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name alpha hyphenated_alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name period_terminated_letter first_name":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name period_terminated_letter alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name letter first_name":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name letter alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name first_name first_name":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name first_name alpha":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name alpha first_name":
+    ["First_Name", "Middle_Name", "Last_Name"],
+  "first_name period_terminated_letter alpha name_generation":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Generation"],
+  "first_name letter alpha name_generation":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Generation"],
+  "first_name first_name alpha name_generation":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Generation"],
+  "first_name alpha alpha name_generation":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Generation"],
+  "first_name period_terminated_letter alpha name_suffix":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "first_name letter alpha name_suffix":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "first_name first_name alpha name_suffix":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "first_name alpha alpha name_suffix":
+    ["First_Name", "Middle_Name", "Last_Name", "Name_Suffix"],
+  "name_prefix first_name first_name":
+    ["Name_Prefix", "First_Name", "Last_Name"],
+  "name_prefix first_name alpha_code":
+    ["Name_Prefix", "First_Name", "Last_Name"],
+  "name_prefix first_name alpha":
+    ["Name_Prefix", "First_Name", "Last_Name"],
+  "name_prefix alpha_code alpha":
+    ["Name_Prefix", "First_Name", "Last_Name"],
+  "name_prefix alpha alpha":
+    ["Name_Prefix", "First_Name", "Last_Name"],
+  "first_name hyphenated_alpha":
+    ["First_Name", "Last_Name"],
+  "first_name first_name":
+    ["First_Name", "Last_Name"],
+  "first_name alpha_code":
+    ["First_Name", "Last_Name"],
+  "first_name alpha":
+    ["First_Name", "Last_Name"],
+  "first_name hyphenated_alpha name_generation":
+    ["First_Name", "Last_Name", "Name_Generation"],
+  "first_name first_name name_generation":
+    ["First_Name", "Last_Name", "Name_Generation"],
+  "first_name alpha name_generation":
+    ["First_Name", "Last_Name", "Name_Generation"],
+  "first_name hyphenated_alpha name_suffix":
+    ["First_Name", "Last_Name", "Name_Suffix"],
+  "first_name first_name name_suffix":
+    ["First_Name", "Last_Name", "Name_Suffix"],
+  "first_name alpha name_suffix":
+    ["First_Name", "Last_Name", "Name_Suffix"],
+  "comma_terminated_alpha first_name period_terminated_letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "comma_terminated_alpha alpha period_terminated_letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "comma_terminated_alpha first_name letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "comma_terminated_alpha alpha letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "comma_terminated_alpha first_name first_name name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "comma_terminated_alpha first_name alpha name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "first_name first_name period_terminated_letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "first_name first_name letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "alpha first_name period_terminated_letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "alpha first_name letter name_prefix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Prefix"],
+  "first_name first_name period_terminated_letter name_suffix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Suffix"],
+  "first_name first_name letter name_suffix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Suffix"],
+  "alpha first_name period_terminated_letter name_suffix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Suffix"],
+  "alpha first_name letter name_suffix":
+    ["Last_Name", "First_Name", "Middle_Name", "Name_Suffix"],
+  "comma_terminated_alpha first_name period_terminated_letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "comma_terminated_alpha first_name letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "alpha comma first_name period_terminated_letter":
+    ["Last_Name", "ignore", "First_Name", "Middle_Name"],
+  "alpha comma first_name letter":
+    ["Last_Name", "ignore", "First_Name", "Middle_Name"],
+  "first_name comma first_name period_terminated_letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "first_name comma first_name letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "alpha comma first_name first_name":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "first_name first_name period_terminated_letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "first_name first_name letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "alpha first_name period_terminated_letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "alpha first_name letter":
+    ["Last_Name", "First_Name", "Middle_Name"],
+  "first_name first_name name_suffix":
+    ["Last_Name", "First_Name", "Name_Prefix"],
+  "alpha first_name name_prefix":
+    ["Last_Name", "First_Name", "Name_Prefix"],
+  "comma_terminated_alpha first_name name_prefix":
+    ["Last_Name", "First_Name", "Name_Prefix"],
+  "comma_terminated_alpha alpha name_prefix":
+    ["Last_Name", "First_Name", "Name_Prefix"],
+  "first_name first_name name_suffix":
+    ["Last_Name", "First_Name", "Name_Suffix"],
+  "alpha first_name name_suffix":
+    ["Last_Name", "First_Name", "Name_Suffix"],
+  "comma_terminated_alpha first_name":
+    ["Last_Name", "First_Name"],
+  "first_name comma first_name":
+    ["Last_Name", "ignore", "First_Name"],
+  "first_name comma alpha":
+    ["Last_Name", "ignore", "First_Name"],
+  "alpha comma first_name":
+    ["Last_Name", "ignore", "First_Name"],
+  "alpha first_name":
+    ["Last_Name", "First_Name"],
+  "organization_word organization_word organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word organization_word organization_word alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word organization_word alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word alpha alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha alpha organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha organization_word organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word organization_word organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word organization_word organization_word alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word organization_word alpha alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word alpha alpha alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha organization_word organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha alpha organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha alpha alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha first_name organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha first_name letter organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "first_name organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha ampersand alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "letter ampersand letter organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word organization_word alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha_code organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word ampersand organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word ampersand alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha ampersand organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha ampersand alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word alpha_code organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word alpha organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "common_word alpha_code organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "common_word alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word ampersand organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word ampersand alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha ampersand organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha ampersand alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word common_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word common_word alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha common_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word organization_word alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "organization_word alpha alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "first_name organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "first_name first_name organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha_code organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha organization_word alpha":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha_code organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha_code alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "first_name alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha first_name organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "possessive_alpha organization_word organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "possessive_alpha alpha organization_word":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "first_name ampersand organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "alpha ampersand organization_suffix":
+    ["Organization_Name", "Organization_Name", "Organization_Name"],
+  "possessive_alpha organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "possessive_alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word alpha_code organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "organization_word alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha_code organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "first_name organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "first_name alpha_code organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "first_name alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "alpha alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word organization_word organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word alpha_code organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word alpha organization_suffix":
+    ["Organization_Name", "Organization_Name", "Name_Suffix"],
+  "common_word organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "common_word alpha_code":
+    ["Organization_Name", "Organization_Name"],
+  "common_word alpha":
+    ["Organization_Name", "Organization_Name"],
+  "organization_word organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "organization_word alpha":
+    ["Organization_Name", "Organization_Name"],
+  "first_name organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "alpha_code organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "alpha organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "hyphenated_alpha organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "possessive_alpha organization_word":
+    ["Organization_Name", "Organization_Name"],
+  "organization_word organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "first_name organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "alpha_code organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "hyphenated_alpha organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "alpha organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "comma_terminated_alpha organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "hyphenated_alpha organization_suffix":
+    ["Organization_Name", "Name_Suffix"],
+  "organization_word":
+    ["Organization_Name"],
+  "alpha_code":
+    ["Organization_Name"],
+  "alpha":
+    ["Organization_Name"]
+}

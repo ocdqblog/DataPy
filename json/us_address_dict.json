@@ -1,0 +1,20 @@
+{
+  "Street_HouseNumber": "",
+  "Street_PrefixDirection": "",
+  "Street_PrefixType": "",
+  "Street_Name": "",
+  "Street_SuffixType": "",
+  "Street_SuffixDirection": "",
+  "Rural_RouteType": "",
+  "Rural_RouteValue": "",
+  "Box_Type": "",
+  "Box_Value": "",
+  "Floor_Type": "",
+  "Floor_Value": "",
+  "Unit_Type": "",
+  "Unit_Value": "",
+  "MultiUnit_Type": "",
+  "MultiUnit_Value": "",
+  "Building_Name": "",
+  "Additional_Address": ""
+}
