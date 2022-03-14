@@ -6,7 +6,7 @@ from collections import Counter, OrderedDict
 from statistics import mean, median, stdev
 import re
 import random
-from Functions_new import * 
+from Functions import * 
 
 class Data:
     """
