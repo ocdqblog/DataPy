@@ -1,0 +1,1 @@
+(?# 001_regex_us_addr)(?P<House_Number>[0-9]+) (?P<Street_Name>[A-Za-z]+) (?P<Street_SuffixType>Street|Road|Avenue|STREET|ROAD|AVENUE)

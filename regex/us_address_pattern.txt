@@ -1,0 +1,7 @@
+^zip_code (\w*),integer \g<1>
+(^integer) street_type (street_type \w*),\g<1> alpha \g<2>
+(^integer) direction (street_type \w*),\g<1> alpha \g<2>
+(^integer) numeric_alpha (street_type \w*),\g<1> alpha \g<2>
+(^integer) building_type (street_type \w*),\g<1> alpha \g<2>
+(^integer) unit_type (street_type \w*),\g<1> alpha \g<2>
+(^integer alpha) building_type (street_type \w*),\g<1> alpha \g<2>
