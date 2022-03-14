@@ -1,0 +1,7 @@
+Key,value_count,unique_count,unique_percent,null_count,null_percent,min_value,max_value,mean_value,median_value,stdev_value,most_common_value,least_common_value,min_length,max_length,format_count,most_common_format,least_common_format,pattern_count,most_common_pattern,least_common_pattern,ML_datatype,is_null,is_unique,is_constant
+UID,500,500,100.0,0,0.0,205164,1296485,689428.27,758015.0,393306.5297012604,205164 (1),1296485 (1),6,7,2,nnnnnn (417),nnnnnnn (83),2,integer (493),date (7),Numerical,False,True,False
+Name,500,498,99.6,0,0.0,AAAH Attorney Advice & Assistance Hotline,Zub Patricia,N/A,N/A,N/A,Bank of America (3),Equitable Cooperative Bank (1),7,99,401,aaaaaabaaaaaaaba (5),aaaaaaaaabaaaaaaaaaaabaaaa (1),131,alpha alpha letter (58),letter alpha_code alpha (1),Categorical,False,False,False
+City,500,172,34.4,0,0.0,Abington,Wrentham,N/A,N/A,N/A,Boston (71),Nahant (1),4,17,30,aaaaaa (113),aaaaaabaaaaaaaaa (1),5,alpha (442),alpha letter letter (1),Categorical,False,False,False
+State,500,1,0.2,0,0.0,MA,MA,N/A,N/A,N/A,MA (500),MA (500),2,2,1,aa (500),aa (500),1,alpha_code (500),alpha_code (500),Categorical,False,False,True
+Zip,500,210,42.0,0,0.0,1002,2780,1979.54,2064.0,432.408295790607,02110 (14),01908 (1),5,5,1,nnnnn (500),nnnnn (500),1,zip_code (500),zip_code (500),Numerical,False,False,False
+Phone,500,486,97.2,0,0.0,(413) 232-0157,(978) 977-3434,N/A,N/A,N/A,(617) 951-8000 (3),(781) 595-1990 (1),14,16,2,(nnn)bnnn-nnnn (497),(nnn)bnnn-nnnnb( (3),2,area_code phone (497),area_code phone special (3),Categorical,False,False,False
