@@ -1,0 +1,13 @@
+Key,value_count,unique_count,unique_percent,null_count,null_percent,min_value,max_value,mean_value,median_value,stdev_value,most_common_value,least_common_value,min_length,max_length,format_count,most_common_format,least_common_format,pattern_count,most_common_pattern,least_common_pattern,ML_datatype,is_null,is_unique,is_constant
+Game_Date,26,26,100.0,0,0.0,05-01-2021,05-31-2021,N/A,N/A,N/A,05-01-2021 (1),05-31-2021 (1),10,10,1,nn-nn-nnnn (26),nn-nn-nnnn (26),1,date (26),date (26),Categorical,False,True,False
+Game_Result,26,2,7.69,0,0.0,0,1,0.5769230769230769,1.0,0.5038314736557788,1 (15),0 (11),1,1,1,n (26),n (26),1,integer (26),integer (26),Label,False,False,False
+At_Bats,26,12,46.15,0,0.0,21,43,34.42307692307692,35.0,4.7511941818711385,35 (6),21 (1),2,2,1,nn (26),nn (26),1,integer (26),integer (26),Numerical,False,False,False
+Runs_Scored,26,12,46.15,0,0.0,0,12,5.384615384615385,5.0,3.5785686868011695,11 (3),7 (1),1,2,2,n (22),nn (4),1,integer (26),integer (26),Numerical,False,False,False
+Hits,26,9,34.62,0,0.0,4,16,9,9.0,3.878143885933063,9 (4),8 (1),1,2,2,n (16),nn (10),1,integer (26),integer (26),Numerical,False,False,False
+Runs_Batted_In,26,12,46.15,0,0.0,0,11,5.153846153846154,5.0,3.282588097124678,6 (3),8 (1),1,2,2,n (22),nn (4),1,integer (26),integer (26),Numerical,False,False,False
+Walks,26,7,26.92,0,0.0,0,6,2.5384615384615383,2.5,1.5028178660308569,3 (8),6 (1),1,1,1,n (26),n (26),1,integer (26),integer (26),Numerical,False,False,False
+Strikeouts,26,10,38.46,0,0.0,4,17,9.346153846153847,9.5,3.045551611019688,11 (6),17 (1),1,2,2,nn (13),n (13),1,integer (26),integer (26),Numerical,False,False,False
+Batting_Average,26,22,84.62,0,0.0,0.129,0.372,0.2541923076923077,0.2475,0.08604511339095056,.333 (2),.238 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
+On_Base_Percentage,26,24,92.31,0,0.0,0.156,0.438,0.3098461538461538,0.3245,0.08041626318485201,.182 (2),.343 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
+Slugging_Percentage,26,25,96.15,0,0.0,0.182,0.744,0.4475769230769231,0.461,0.15880835571894147,.486 (2),.375 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
+OnBase_Plus_Slugging,26,25,96.15,0,0.0,0.356,1.151,0.7573461538461539,0.772,0.22529055769076384,.747 (2),.557 (1),4,5,2,.nnn (22),n.nnn (4),2,mixed_numeric_special (22),float (4),Numerical,False,False,False
