@@ -7,7 +7,7 @@ Hits,28,11,39.29,0,0.0,4,14,8.75,8.0,3.098685503863187,8 (4),12 (1),1,2,2,n (17)
 Runs_Batted_In,28,11,39.29,0,0.0,0,12,4.857142857142857,5.0,3.0515847214470897,5 (4),9 (1),1,2,2,n (25),nn (3),1,integer (28),integer (28),Numerical,False,False,False
 Walks,28,8,28.57,0,0.0,0,7,3,3.0,1.7427096823731247,2 (7),5 (1),1,1,1,n (28),n (28),1,integer (28),integer (28),Numerical,False,False,False
 Strikeouts,28,11,39.29,0,0.0,3,13,8.571428571428571,9.0,2.9113897843110044,11 (4),4 (1),1,2,2,n (15),nn (13),1,integer (28),integer (28),Numerical,False,False,False
-Batting_Average,28,25,89.29,0,0.0,0.133,0.4,0.25575,0.246,0.0772464190707845,.235 (2),.400 (1),4,4,1,.nnn (28),.nnn (28),1,mixed_numeric_special (28),mixed_numeric_special (28),Numerical,False,False,False
-On_Base_Percentage,28,23,82.14,0,0.0,0.156,0.5,0.32060714285714287,0.3245,0.07581768546039525,.250 (4),.314 (1),4,4,1,.nnn (28),.nnn (28),1,mixed_numeric_special (28),mixed_numeric_special (28),Numerical,False,False,False
-Slugging_Percentage,28,26,92.86,0,0.0,0.172,0.8,0.42364285714285715,0.4135,0.17207216709227174,.417 (2),.433 (1),4,4,1,.nnn (28),.nnn (28),1,mixed_numeric_special (28),mixed_numeric_special (28),Numerical,False,False,False
-OnBase_Plus_Slugging,28,28,100.0,0,0.0,0.369,1.21,0.7443214285714286,0.734,0.23184318671790471,.369 (1),.814 (1),4,5,2,.nnn (24),n.nnn (4),2,mixed_numeric_special (24),float (4),Numerical,False,True,False
+Batting_Average,28,25,89.29,0,0.0,0.133,0.4,0.25575,0.246,0.0772464190707845,.235 (2),.400 (1),4,4,1,.nnn (28),.nnn (28),1,float (28),float (28),Numerical,False,False,False
+On_Base_Percentage,28,23,82.14,0,0.0,0.156,0.5,0.32060714285714287,0.3245,0.07581768546039525,.250 (4),.314 (1),4,4,1,.nnn (28),.nnn (28),1,float (28),float (28),Numerical,False,False,False
+Slugging_Percentage,28,26,92.86,0,0.0,0.172,0.8,0.42364285714285715,0.4135,0.17207216709227174,.417 (2),.433 (1),4,4,1,.nnn (28),.nnn (28),1,float (28),float (28),Numerical,False,False,False
+OnBase_Plus_Slugging,28,28,100.0,0,0.0,0.369,1.21,0.7443214285714286,0.734,0.23184318671790471,.369 (1),.814 (1),4,5,2,.nnn (24),n.nnn (4),1,float (28),float (28),Numerical,False,True,False

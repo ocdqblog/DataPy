@@ -7,7 +7,7 @@ Hits,26,9,34.62,0,0.0,4,16,9,9.0,3.878143885933063,9 (4),8 (1),1,2,2,n (16),nn (
 Runs_Batted_In,26,12,46.15,0,0.0,0,11,5.153846153846154,5.0,3.282588097124678,6 (3),8 (1),1,2,2,n (22),nn (4),1,integer (26),integer (26),Numerical,False,False,False
 Walks,26,7,26.92,0,0.0,0,6,2.5384615384615383,2.5,1.5028178660308569,3 (8),6 (1),1,1,1,n (26),n (26),1,integer (26),integer (26),Numerical,False,False,False
 Strikeouts,26,10,38.46,0,0.0,4,17,9.346153846153847,9.5,3.045551611019688,11 (6),17 (1),1,2,2,nn (13),n (13),1,integer (26),integer (26),Numerical,False,False,False
-Batting_Average,26,22,84.62,0,0.0,0.129,0.372,0.2541923076923077,0.2475,0.08604511339095056,.333 (2),.238 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
-On_Base_Percentage,26,24,92.31,0,0.0,0.156,0.438,0.3098461538461538,0.3245,0.08041626318485201,.182 (2),.343 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
-Slugging_Percentage,26,25,96.15,0,0.0,0.182,0.744,0.4475769230769231,0.461,0.15880835571894147,.486 (2),.375 (1),4,4,1,.nnn (26),.nnn (26),1,mixed_numeric_special (26),mixed_numeric_special (26),Numerical,False,False,False
-OnBase_Plus_Slugging,26,25,96.15,0,0.0,0.356,1.151,0.7573461538461539,0.772,0.22529055769076384,.747 (2),.557 (1),4,5,2,.nnn (22),n.nnn (4),2,mixed_numeric_special (22),float (4),Numerical,False,False,False
+Batting_Average,26,22,84.62,0,0.0,0.129,0.372,0.2541923076923077,0.2475,0.08604511339095056,.333 (2),.238 (1),4,4,1,.nnn (26),.nnn (26),1,float (26),float (26),Numerical,False,False,False
+On_Base_Percentage,26,24,92.31,0,0.0,0.156,0.438,0.3098461538461538,0.3245,0.08041626318485201,.182 (2),.343 (1),4,4,1,.nnn (26),.nnn (26),1,float (26),float (26),Numerical,False,False,False
+Slugging_Percentage,26,25,96.15,0,0.0,0.182,0.744,0.4475769230769231,0.461,0.15880835571894147,.486 (2),.375 (1),4,4,1,.nnn (26),.nnn (26),1,float (26),float (26),Numerical,False,False,False
+OnBase_Plus_Slugging,26,25,96.15,0,0.0,0.356,1.151,0.7573461538461539,0.772,0.22529055769076384,.747 (2),.557 (1),4,5,2,.nnn (22),n.nnn (4),1,float (26),float (26),Numerical,False,False,False
