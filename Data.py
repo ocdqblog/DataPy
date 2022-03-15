@@ -67,6 +67,7 @@ class Data:
         self.default_regex_list.append("(?# date)((?P<month>4|6|9|11)[-/]?(?P<day>[1-9]|[1-2][0-9]|30)[-/]?(?P<century>19|20)(?P<year>[0-9]{2}))")
         self.default_regex_list.append("(?# date)((?P<month>2)[-/]?(?P<day>[1-9]|[1][0-9]|2[0-9])[-/]?(?P<century>19|20)(?P<year>[0-9]{2}))")
         self.default_regex_list.append("(?# float)([0-9]+\.[0-9]+)")
+        self.default_regex_list.append("(?# float)(\.[0-9]+)")
         self.default_regex_list.append("(?# zip_code)(\d{5})")
         self.default_regex_list.append("(?# zip_code)(\d{5}\-\d{4})")
         self.default_regex_list.append("(?# integer)([0-9]+)")
@@ -829,7 +830,7 @@ class Data:
                     median_value = "N/A"
                     stdev_value = "N/A"
                     ML_datatype = "Categorical"
-            if value_set == {0,1}:
+            if value_set == {0,1} or value_set == {"0","1"}:
                 ML_datatype = "Label"
             length_list = [len(str(value)) for value in value_list]
             if min(length_list) == 0 and max(length_list) > 0:
