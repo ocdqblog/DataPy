@@ -279,6 +279,18 @@ def export_list_as_csv(export_list, csv_file, file_option = "w"):
 # Function Alias elac = export_list_as_csv
 elac = export_list_as_csv
 
+def export_list_as_SQL_inserts(export_list, table_name, sql_file, file_option = "w"):
+    export_list.pop(0) # Remove metadata from export_list
+    with open(sql_file, file_option) as file:
+        for row in export_list:
+            row_tuple = tuple(row)
+            row_cs_string = str(row_tuple)       
+            row_line = F"INSERT INTO {table_name} VALUES" + row_cs_string + ";"
+            file.write(row_line + "\n")     
+    print(F"\nExported {len(export_list)} rows to file: {sql_file}")
+# Function Alias elasi = export_list_as_SQL_inserts
+elasi = export_list_as_SQL_inserts
+
 def print_rows_in_dict(print_dict, print_limit = 0):
     if print_limit > 0:
         print_counter = 0
