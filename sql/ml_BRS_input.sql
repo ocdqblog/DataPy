@@ -8,7 +8,6 @@ SELECT * FROM BRS_2021_prediction_RF WHERE Game_Result != ML_Prediction;
 
 (3 rows)
 
-
 SELECT * FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction;
  Key | Game_Date  | Game_Result | ML_Prediction | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
 -----+------------+-------------+---------------+---------+-------------+------+----------------+-------+------------+-----------------+--------------------+---------------------+----------------------
