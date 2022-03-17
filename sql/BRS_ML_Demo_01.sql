@@ -420,15 +420,12 @@ SELECT COUNT(*) AS RF_Prediction_Errors FROM BRS_2021_prediction_RF WHERE Game_R
 ------------------------------
 
 SELECT * FROM BRS_2021_prediction_RF WHERE Game_Result != ML_Prediction;
-
  Key | Game_Date  | Game_Result | ML_Prediction | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
 -----+------------+-------------+---------------+---------+-------------+------+----------------+-------+------------+-----------------+--------------------+---------------------+----------------------
   25 | 2021-04-28 |           1 | 0             |      30 |           1 |    4 |              1 |     1 |         15 |           0.133 |              0.161 |               0.233 |                0.395
-  28 | 2021-05-01 |           0 | 1             |      38 |           6 |   12 |              6 |     4 |         12 |           0.316 |              0.372 |               0.447 |                0.819
-  42 | 2021-05-16 |           0 | 1             |      35 |           5 |    9 |              5 |     2 |         14 |           0.257 |              0.297 |               0.486 |                0.783
+  67 | 2021-06-14 |           1 | 0             |      31 |           2 |    7 |              2 |     1 |          7 |           0.226 |               0.25 |               0.258 |                0.508
 
-(3 rows)
-
+(2 rows)
 
 SELECT * FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction;
  Key | Game_Date  | Game_Result | ML_Prediction | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
