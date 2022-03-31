@@ -318,3 +318,37 @@ def print_rows_in_list(print_list, print_limit = 0):
             print(print_list[row])
 # Function Alias pril = print_rows_in_list
 pril = print_rows_in_list
+
+def convert_sql_results_file_to_csv_file(sql_results_file, csv_file, key_option = "assign surrogate key", surrogate_seed = 1):
+    with open(sql_results_file, 'r') as sql_file:
+        sql_reader = reader(sql_file, delimiter = '|')
+        sql_data = list(sql_reader)
+    # Assumes the first row is metadata (column names)
+    metadata_list = sql_data[0]
+    sql_data_list = sql_data[1::]
+    # Strip leading and trailing spaces from input data values
+    data_list = []
+    for row in sql_data_list:
+        data_list.append([value.strip() for value in row])
+    data_with_metadata = []
+    if key_option == "assign surrogate key":
+        # Zip metadata and data together into a list of key:value pairs 
+        for item in data_list:
+            data_with_metadata.append(dict(zip(metadata_list, item)))
+        # Zip together a nested dictionary with an assigned surrogate key starting at surrogate_seed
+        sql_dict = dict(zip(range(surrogate_seed, len(data_list) + surrogate_seed), data_with_metadata))
+    elif key_option == "key is first column":
+        metadata_list.pop(0) # Remove key column from metadata_list
+        # Gather the list of key values from the first input column 
+        data_keys = []
+        for item in data_list:
+            data_keys.append(item.pop(0)) # Remove key from data_list and append to data_keys
+            data_with_metadata.append(dict(zip(metadata_list, item)))
+        # Zip together a nested dictionary with the key values from the first input column  
+        sql_dict = dict(zip(data_keys, data_with_metadata))
+    else:
+        sql_dict = {}
+    csv_list = convert_ndict_to_list(sql_dict)
+    export_list_as_csv(csv_list, csv_file)
+# Function Alias sql_to_csv = convert_sql_results_file_to_csv_file
+sql_to_csv = convert_sql_results_file_to_csv_file
