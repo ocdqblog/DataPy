@@ -1504,6 +1504,50 @@ class Data:
     # Method Alias cana = concat_attributes_into_new_attribute
     cana = concat_attributes_into_new_attribute
 
+    def math_attributes_into_new_attribute(self, attributes, **kwargs):
+        # If level is not specified, default to level 0
+        if "level" not in kwargs:
+            level = 0
+        else:
+            level = kwargs["level"]
+        # If new_attribute is not specified, default to new_attribute 
+        if "new_attribute" not in kwargs:
+            new_attribute = "new_attribute"
+        else:
+            new_attribute = kwargs["new_attribute"]
+        # If math_type is not specified, default to +
+        if "math_type" not in kwargs:
+            math_type = "+"
+        else:
+            math_type = kwargs["math_type"]
+        # Create new attribute and add it to the dictionary for specified keys
+        for key in self.nd:
+            if self.is_key(key, level):
+                mathed_value = ""
+                for attribute in attributes:
+                    if attribute in self.nd[key][level]:
+                        value = convert_string_to_number(self.nd[key][level][attribute])
+                        if mathed_value == "":
+                            mathed_value = value 
+                        else:
+                            if math_type == "+":
+                                mathed_value = mathed_value + value
+                            elif math_type == "*":
+                                mathed_value = mathed_value * value
+                            elif math_type == "-":
+                                mathed_value = mathed_value - value
+                            elif math_type == "/":
+                                if value == 0:
+                                    mathed_value = value 
+                                else:
+                                    mathed_value = mathed_value / value
+                            else:
+                                mathed_value = value
+                update_dict = {new_attribute: mathed_value}
+                self.update_level(key, update_dict, level)
+    # Method Alias mana = math_attributes_into_new_attribute
+    mana = math_attributes_into_new_attribute
+
     def count_attribute_diff(self, level = 0):
         attribute_diff = -1
         first_key = -1
